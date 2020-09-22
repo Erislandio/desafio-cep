@@ -1,4 +1,4 @@
-import { Body, Controller, Get, Query, UsePipes } from '@nestjs/common';
+import { Controller, Get, Query, UsePipes } from '@nestjs/common';
 import { IZip } from './interfaces/zip.interfaces';
 import { ZipValidatorPipe } from './validators/zip.validator';
 import { ZipService } from './zip.service';

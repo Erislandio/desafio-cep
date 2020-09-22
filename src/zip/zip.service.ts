@@ -15,7 +15,7 @@ export class ZipService implements Zip {
     try {
       const response = await this.httpService.get<IZip>(this.route(zip));
 
-      const { data, status } = await response.toPromise();
+      const { data } = await response.toPromise();
 
       return data;
     } catch (error) {
