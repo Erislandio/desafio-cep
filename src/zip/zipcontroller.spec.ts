@@ -49,11 +49,15 @@ describe('Zip Controller', () => {
     });
   });
 
-  it('/GET should return a valid address', async () => {
+  it('/GET should return a invalid address', async () => {
     return request(app.getHttpServer())
       .get('/api/v1/cep?cep=12927-012')
-      .expect(200)
-      .expect(zipService.getAddressByZipCode());
+      .expect(400)
+      .expect({
+        statusCode: 400,
+        message: 'Please enter a valid zip code',
+        error: 'Bad Request',
+      });
   });
 
   it('/GET should return a invalid request', async () => {
@@ -68,13 +72,14 @@ describe('Zip Controller', () => {
   });
 
   it('/GET should return a invalid request / internal server error', async () => {
-    // return request(app.getHttpServer())
-    //   .get('/api/v1/cep?cep=129270-122')
-    //   .expect(500)
-    //   .expect({
-    //     status: 500,
-    //     error: 'There was an internal server problem at the time',
-    //   });
+    return request(app.getHttpServer())
+      .get('/api/v1/cep?cep=129270-122')
+      .expect(400)
+      .expect({
+        statusCode: 400,
+        message: 'Please enter a valid zip code',
+        error: 'Bad Request',
+      });
   });
 
   afterAll(async () => {

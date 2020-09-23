@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### [0.0.5] 2020-09-22
+
+### Fixed
+
+- Validation zip code
+- Test invalid request to get zip code
+
 ### [0.0.4] 2020-09-22
 
 ### Added
