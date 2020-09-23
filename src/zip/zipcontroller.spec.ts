@@ -7,7 +7,7 @@ import * as request from 'supertest';
 describe('Zip Controller', () => {
   let controller: ZipController;
   let app: INestApplication;
-  let zipService = {
+  const zipService = {
     getAddressByZipCode: () => ({
       cep: '12927-012',
       logradouro: 'Rua Herculano Augusto de Toledo',
