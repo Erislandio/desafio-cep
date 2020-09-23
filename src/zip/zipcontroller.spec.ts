@@ -54,8 +54,9 @@ describe('Zip Controller', () => {
       .get('/api/v1/cep?cep=12927-012')
       .expect(400)
       .expect({
-        status: 400,
-        error: 'Please enter a valid zip code',
+        statusCode: 400,
+        message: 'Please enter a valid zip code',
+        error: 'Bad Request',
       });
   });
 
@@ -75,8 +76,9 @@ describe('Zip Controller', () => {
       .get('/api/v1/cep?cep=129270-122')
       .expect(400)
       .expect({
-        status: 400,
-        error: 'Please enter a valid zip code',
+        statusCode: 400,
+        message: 'Please enter a valid zip code',
+        error: 'Bad Request',
       });
   });
 
