@@ -11,22 +11,58 @@ import { IZip } from './interfaces/zip.interfaces';
 export class ZipService implements Zip {
   constructor(private readonly httpService: HttpService) {}
 
+  private setCharAt = (
+    code: string,
+    index: number,
+    replaceValue = '0',
+  ): string => {
+    if (index > code.length - 1) return code;
+    return `${code.substring(0, index)}${replaceValue}${code.substring(
+      index + 1,
+    )}`;
+  };
+
   public async getAddressByZipCode(zip: string): Promise<IZip> {
     try {
-      const response = await this.httpService.get<IZip>(this.route(zip));
+      let req = null;
+      let validationZip = zip;
 
-      const { data } = await response.toPromise();
+      for (let index = 7; index <= zip.length; index--) {
+        const response = await this.sendZipCode(validationZip);
+        req = response;
 
-      return data;
+        if (!response.erro) {
+          break;
+        }
+
+        if (validationZip[index] !== '0') {
+          validationZip = this.setCharAt(validationZip, index, '0');
+        }
+
+        req = {
+          error: `unable to fetch the informed zip code: ${zip}`,
+        };
+      }
+
+      return req;
     } catch (error) {
       throw new HttpException(
         {
           status: HttpStatus.INTERNAL_SERVER_ERROR,
           error: 'There was an internal server problem at the time',
+          description: error,
         },
         HttpStatus.INTERNAL_SERVER_ERROR,
       );
     }
+  }
+
+  private async sendZipCode(code: string): Promise<IZip> {
+    const response = await this.httpService.get<IZip>(this.route(code));
+
+    const { data } = await response.toPromise();
+
+    return data;
   }
 
   private route = (zip: string): string => {

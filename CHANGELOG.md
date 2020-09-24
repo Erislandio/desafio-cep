@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### [0.0.6] 2020-09-24
+
+### Fixed
+
+- API business rule
+- Separation of responsibilities for each method
+
 ### [0.0.5] 2020-09-22
 
 ### Fixed
