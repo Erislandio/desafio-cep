@@ -81,6 +81,24 @@ describe('Zip Controller', () => {
         error: 'Bad Request',
       });
   });
+  // it('should contain another zip value, if not found return another address', async () => {
+
+  //   return request(app.getHttpServer())
+  //     .get('/api/v1/cep?cep=12927452')
+  //     .expect(200)
+  //     .expect({
+  //       cep: '12927-000',
+  //       logradouro: 'Avenida Antonio Marques de Oliveira',
+  //       complemento: '',
+  //       bairro: 'Conjunto Habitacional Bragança Paulista F II',
+  //       localidade: 'Bragança Paulista',
+  //       uf: 'SP',
+  //       ibge: '3507605',
+  //       gia: '2252',
+  //       ddd: '11',
+  //       siafi: '6251',
+  //     });
+  // });
 
   afterAll(async () => {
     await app.close();

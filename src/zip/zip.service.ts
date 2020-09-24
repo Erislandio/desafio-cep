@@ -14,7 +14,7 @@ export class ZipService implements Zip {
   private setCharAt = (
     code: string,
     index: number,
-    replaceValue: string = '0',
+    replaceValue = '0',
   ): string => {
     if (index > code.length - 1) return code;
     return `${code.substring(0, index)}${replaceValue}${code.substring(
