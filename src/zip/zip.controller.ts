@@ -28,7 +28,7 @@ export class ZipController {
   })
   @ApiBadRequestResponse({
     description:
-      'This error can happen when the api receives an invalid value from zip example: 12927012',
+      'This error can happen when the api receives an invalid value from zip example: 12927-012',
   })
   public async getZipCode(
     @Query('cep', new ZipValidatorPipe()) zip: string,

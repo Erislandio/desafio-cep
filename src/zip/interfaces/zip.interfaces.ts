@@ -9,4 +9,5 @@ export interface IZip {
   gia: string;
   ddd: string;
   siafi: string;
+  erro?: boolean;
 }
