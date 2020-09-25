@@ -3,7 +3,6 @@ import {
     Controller,
     Get,
     Query,
-    UnauthorizedException,
     UseInterceptors,
     UsePipes,
 } from '@nestjs/common';
