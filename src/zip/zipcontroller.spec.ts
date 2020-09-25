@@ -1,4 +1,4 @@
-import { HttpModule, INestApplication } from '@nestjs/common';
+import { CacheModule, HttpModule, INestApplication } from '@nestjs/common';
 import { Test, TestingModule } from '@nestjs/testing';
 import { ZipController } from './zip.controller';
 import { ZipService } from './zip.service';
@@ -26,7 +26,13 @@ describe('Zip Controller', () => {
         const module: TestingModule = await Test.createTestingModule({
             controllers: [ZipController],
             providers: [ZipService],
-            imports: [HttpModule],
+            imports: [
+                HttpModule,
+                CacheModule.register({
+                    ttl: 10,
+                    max: 10,
+                }),
+            ],
         })
             .overrideProvider(ZipService)
             .useValue(zipService)
