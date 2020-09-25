@@ -1,3 +1,3 @@
 export interface IZipDto {
-  zip: string;
+    zip: string;
 }
