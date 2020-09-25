@@ -1,4 +1,12 @@
-import { Controller, Get, Query, UsePipes } from '@nestjs/common';
+import {
+  CacheInterceptor,
+  Controller,
+  Get,
+  Query,
+  UnauthorizedException,
+  UseInterceptors,
+  UsePipes,
+} from '@nestjs/common';
 import {
   ApiBadRequestResponse,
   ApiQuery,
@@ -30,6 +38,7 @@ export class ZipController {
     description:
       'This error can happen when the api receives an invalid value from zip example: 12927-012',
   })
+  @UseInterceptors(CacheInterceptor) // cache controll
   public async getZipCode(
     @Query('cep', new ZipValidatorPipe()) zip: string,
   ): Promise<IZip> {
