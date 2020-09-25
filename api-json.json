@@ -1,0 +1,53 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "CEP api",
+        "description": "With this api we can make zip code queries throughout the Brazilian territory",
+        "version": "1.0",
+        "contact": {}
+    },
+    "tags": [],
+    "servers": [],
+    "components": {
+        "securitySchemes": {
+            "api_key": {
+                "type": "apiKey",
+                "in": "header",
+                "name": "apiKey",
+                "description": "Authentication token"
+            }
+        }
+    },
+    "paths": {
+        "/api/v1/pvt/cep": {
+            "get": {
+                "operationId": "ZipController_getZipCode",
+                "parameters": [
+                    {
+                        "name": "apiKey",
+                        "in": "header",
+                        "description": "Authentication api tkey",
+                        "required": true,
+                        "schema": { "type": "string" }
+                    },
+                    {
+                        "name": "cep",
+                        "required": true,
+                        "in": "query",
+                        "description": "example: 12927-012, remember to put dashes",
+                        "allowEmptyValue": false,
+                        "schema": { "type": "string" }
+                    }
+                ],
+                "responses": {
+                    "200": { "description": "" },
+                    "400": {
+                        "description": "This error can happen when the api receives an invalid value from zip example: 12927-012"
+                    }
+                },
+                "tags": ["CEP api"],
+                "security": [{ "apiKey": [] }]
+            }
+        }
+    }
+}

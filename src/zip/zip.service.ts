@@ -11,7 +11,7 @@ import { IZip } from './interfaces/zip.interfaces';
 export class ZipService implements Zip {
     constructor(private readonly httpService: HttpService) {}
 
-    private setCharAt = (
+    private replaceCharIndex = (
         code: string,
         index: number,
         replaceValue = '0',
@@ -36,7 +36,11 @@ export class ZipService implements Zip {
                 }
 
                 if (validationZip[index] !== '0') {
-                    validationZip = this.setCharAt(validationZip, index, '0');
+                    validationZip = this.replaceCharIndex(
+                        validationZip,
+                        index,
+                        '0',
+                    );
                 }
 
                 req = {
