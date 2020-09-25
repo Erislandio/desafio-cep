@@ -57,7 +57,7 @@ describe('Zip Controller', () => {
 
     it('/GET should return a invalid address', async () => {
         return request(app.getHttpServer())
-            .get('/api/v1/cep?cep=12927-012')
+            .get('/api/v1/pvt/cep?cep=12927-012')
             .expect(400)
             .expect({
                 statusCode: 400,
@@ -68,7 +68,7 @@ describe('Zip Controller', () => {
 
     it('/GET should return a invalid request', async () => {
         return request(app.getHttpServer())
-            .get('/api/v1/cep?cep=129270122')
+            .get('/api/v1/pvt/cep?cep=129270122')
             .expect(400)
             .expect({
                 statusCode: 400,
@@ -79,7 +79,7 @@ describe('Zip Controller', () => {
 
     it('/GET should return a invalid request / internal server error', async () => {
         return request(app.getHttpServer())
-            .get('/api/v1/cep?cep=129270-122')
+            .get('/api/v1/pvt/cep?cep=129270-122')
             .expect(400)
             .expect({
                 statusCode: 400,
@@ -90,7 +90,7 @@ describe('Zip Controller', () => {
     // it('should contain another zip value, if not found return another address', async () => {
 
     //   return request(app.getHttpServer())
-    //     .get('/api/v1/cep?cep=12927452')
+    //     .get('/api/v1/pvt/cep?cep=12927452')
     //     .expect(200)
     //     .expect({
     //       cep: '12927-000',
