@@ -8,16 +8,27 @@ import {
 } from '@nestjs/common';
 import {
     ApiBadRequestResponse,
+    ApiHeaders,
     ApiQuery,
     ApiResponse,
+    ApiSecurity,
     ApiTags,
 } from '@nestjs/swagger';
 import { IZip } from './interfaces/zip.interfaces';
 import { ZipValidatorPipe } from './validators/zip.validator';
 import { ZipService } from './zip.service';
 
-@Controller('/api/v1/cep')
+@ApiHeaders([
+    {
+        name: 'apiKey',
+        allowEmptyValue: false,
+        required: true,
+        description: 'Authentication api tkey',
+    },
+])
+@Controller('/api/v1/pvt/cep')
 @ApiTags('CEP api')
+@ApiSecurity('apiKey')
 export class ZipController {
     constructor(private readonly zipService: ZipService) {}
 

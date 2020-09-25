@@ -20,6 +20,11 @@ import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger';
             'With this api we can make zip code queries throughout the Brazilian territory',
         )
         .setVersion('1.0')
+        .addApiKey({
+            type: 'apiKey',
+            name: 'apiKey',
+            description: 'Authentication token',
+        })
         .build();
 
     const document = SwaggerModule.createDocument(app, docs);
