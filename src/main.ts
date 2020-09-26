@@ -10,6 +10,7 @@ import { WINSTON_MODULE_NEST_PROVIDER } from 'nest-winston';
 
     app.use(
         rateLimit({
+            // request limit
             max: 100,
         }),
     );
