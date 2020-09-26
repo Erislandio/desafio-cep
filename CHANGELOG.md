@@ -7,12 +7,21 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### [0.0.0] 2020-09-26
+
+### Added
+
+-   Middleware Loggers
+-   Winston Logger
+-   Logger provider
+-   Loggers on controllers
+
 ### [0.0.8] 2020-09-24
 
 ### Added
 
 -   API authentication method
--   Middleware authenticatino
+-   Middleware authentication
 -   Add ApiKeyStrategy
 
 ### [0.0.7] 2020-09-24

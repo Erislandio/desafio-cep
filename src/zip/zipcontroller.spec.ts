@@ -1,8 +1,15 @@
-import { CacheModule, HttpModule, INestApplication } from '@nestjs/common';
+import {
+    CacheModule,
+    HttpModule,
+    INestApplication,
+    Logger,
+} from '@nestjs/common';
 import { Test, TestingModule } from '@nestjs/testing';
 import { ZipController } from './zip.controller';
 import { ZipService } from './zip.service';
 import * as request from 'supertest';
+import { WinstonModule } from 'nest-winston';
+import * as winston from 'winston';
 
 describe('Zip Controller', () => {
     let controller: ZipController;
@@ -25,8 +32,23 @@ describe('Zip Controller', () => {
     beforeEach(async () => {
         const module: TestingModule = await Test.createTestingModule({
             controllers: [ZipController],
-            providers: [ZipService],
+            providers: [ZipService, Logger],
             imports: [
+                WinstonModule.forRoot({
+                    level: 'info',
+                    format: winston.format.json(),
+                    defaultMeta: { service: 'api-service' },
+                    transports: [
+                        new winston.transports.File({
+                            filename: 'logs/error.log',
+                            level: 'error',
+                        }),
+                        new winston.transports.File({
+                            filename: 'logs/debug.log',
+                            level: 'debug',
+                        }),
+                    ],
+                }),
                 HttpModule,
                 CacheModule.register({
                     ttl: 10,

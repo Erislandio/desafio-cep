@@ -2,9 +2,11 @@ import {
     CacheInterceptor,
     Controller,
     Get,
+    Inject,
+    InternalServerErrorException,
+    Logger,
     Query,
     UseInterceptors,
-    UsePipes,
 } from '@nestjs/common';
 import {
     ApiBadRequestResponse,
@@ -14,6 +16,7 @@ import {
     ApiSecurity,
     ApiTags,
 } from '@nestjs/swagger';
+import { WINSTON_MODULE_PROVIDER } from 'nest-winston';
 import { IZip } from './interfaces/zip.interfaces';
 import { ZipValidatorPipe } from './validators/zip.validator';
 import { ZipService } from './zip.service';
@@ -30,10 +33,12 @@ import { ZipService } from './zip.service';
 @ApiTags('CEP api')
 @ApiSecurity('apiKey')
 export class ZipController {
-    constructor(private readonly zipService: ZipService) {}
+    constructor(
+        @Inject(WINSTON_MODULE_PROVIDER) private readonly logger: Logger,
+        private readonly zipService: ZipService,
+    ) {}
 
     @Get()
-    @UsePipes()
     @ApiResponse({
         status: 200,
     })
@@ -50,8 +55,17 @@ export class ZipController {
     })
     @UseInterceptors(CacheInterceptor) // cache controll
     public async getZipCode(
-        @Query('cep', new ZipValidatorPipe()) zip: string,
+        @Query('cep', new ZipValidatorPipe(new Logger())) zip: string,
     ): Promise<IZip> {
-        return this.zipService.getAddressByZipCode(zip);
+        try {
+            return this.zipService.getAddressByZipCode(zip);
+        } catch (error) {
+            this.logger.error(
+                `/GET cep?=${zip} - ZipController`,
+                ZipController.name,
+            );
+
+            throw new InternalServerErrorException(error);
+        }
     }
 }

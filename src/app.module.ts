@@ -2,6 +2,7 @@ import {
     CacheInterceptor,
     CacheModule,
     HttpModule,
+    Logger,
     MiddlewareConsumer,
     Module,
 } from '@nestjs/common';
@@ -12,6 +13,8 @@ import { APP_INTERCEPTOR } from '@nestjs/core';
 import { AuthModule } from './auth/auth.module';
 import { ConfigModule } from '@nestjs/config';
 import { AuthMiddleware } from './zip/middlewares/auth.middleware';
+import { WinstonModule } from 'nest-winston';
+import * as winston from 'winston';
 
 @Module({
     imports: [
@@ -26,9 +29,25 @@ import { AuthMiddleware } from './zip/middlewares/auth.middleware';
             isGlobal: true,
             envFilePath: '.env',
         }),
+        WinstonModule.forRoot({
+            level: 'info',
+            format: winston.format.json(),
+            defaultMeta: { service: 'api-service' },
+            transports: [
+                new winston.transports.File({
+                    filename: 'logs/error.log',
+                    level: 'error',
+                }),
+                new winston.transports.File({
+                    filename: 'logs/debug.log',
+                    level: 'debug',
+                }),
+            ],
+        }),
     ],
     controllers: [ZipController],
     providers: [
+        Logger,
         ZipService,
         {
             provide: APP_INTERCEPTOR,
