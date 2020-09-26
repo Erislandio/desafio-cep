@@ -2,6 +2,7 @@ import {
     CacheInterceptor,
     Controller,
     Get,
+    HttpCode,
     Inject,
     InternalServerErrorException,
     Logger,
@@ -29,7 +30,7 @@ import { ZipService } from './zip.service';
         description: 'Authentication api tkey',
     },
 ])
-@Controller('/api/v1/pvt/cep')
+@Controller('/api/v1')
 @ApiTags('CEP api')
 @ApiSecurity('apiKey')
 export class ZipController {
@@ -38,7 +39,7 @@ export class ZipController {
         private readonly zipService: ZipService,
     ) {}
 
-    @Get()
+    @Get('/pvt/cep')
     @ApiResponse({
         status: 200,
     })
@@ -65,6 +66,23 @@ export class ZipController {
                 ZipController.name,
             );
 
+            throw new InternalServerErrorException(error);
+        }
+    }
+
+    @Get('/cep/check')
+    @HttpCode(200)
+    public async checkStatus() {
+        try {
+            const data = this.zipService.getAddressByZipCode('12927012');
+
+            if (data) {
+                return {
+                    ok: true,
+                    error: null,
+                };
+            }
+        } catch (error) {
             throw new InternalServerErrorException(error);
         }
     }

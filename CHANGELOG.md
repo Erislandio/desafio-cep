@@ -7,7 +7,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
-### [0.0.0] 2020-09-26
+### [0.0.10] 2020-09-26
+
+### Added
+
+-   Health check api - controllers / services
+
+### [0.0.9] 2020-09-26
 
 ### Added
 

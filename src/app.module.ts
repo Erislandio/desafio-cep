@@ -15,21 +15,27 @@ import { ConfigModule } from '@nestjs/config';
 import { AuthMiddleware } from './zip/middlewares/auth.middleware';
 import { WinstonModule } from 'nest-winston';
 import * as winston from 'winston';
+import { TerminusModule } from '@nestjs/terminus';
+import { HealthController } from './health/health.controller';
 
 @Module({
     imports: [
         ZipModule,
         HttpModule,
+        TerminusModule, // health check controll
         CacheModule.register({
+            // cache controll
             ttl: 10,
             max: 10,
         }),
         AuthModule,
         ConfigModule.forRoot({
+            // set global env file
             isGlobal: true,
             envFilePath: '.env',
         }),
         WinstonModule.forRoot({
+            // Loggers controll
             level: 'info',
             format: winston.format.json(),
             defaultMeta: { service: 'api-service' },
@@ -45,7 +51,7 @@ import * as winston from 'winston';
             ],
         }),
     ],
-    controllers: [ZipController],
+    controllers: [ZipController, HealthController],
     providers: [
         Logger,
         ZipService,

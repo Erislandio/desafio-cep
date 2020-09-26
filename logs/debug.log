@@ -1,0 +1,430 @@
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"NestApplication","level":"info","message":"Nest application successfully started"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"NestApplication","level":"info","message":"Nest application successfully started"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"NestApplication","level":"info","message":"Nest application successfully started"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"LoggerController {/logger}:"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"NestApplication","level":"info","message":"Nest application successfully started"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"LoggerController {/logger}:"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"NestApplication","level":"info","message":"Nest application successfully started"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"LoggerController {/logger}:"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"NestApplication","level":"info","message":"Nest application successfully started"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"LoggerController {/logger}:"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"NestApplication","level":"info","message":"Nest application successfully started"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"LoggerController {/logger}:"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"NestApplication","level":"info","message":"Nest application successfully started"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"NestApplication","level":"info","message":"Nest application successfully started"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"NestApplication","level":"info","message":"Nest application successfully started"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"NestApplication","level":"info","message":"Nest application successfully started"}
+{"service":"api-service","level":"debug","message":"/GET cep?=12927012 - ZipController"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"NestApplication","level":"info","message":"Nest application successfully started"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"NestApplication","level":"info","message":"Nest application successfully started"}
+{"service":"api-service","level":"debug","message":"/GET cep?=12927012 - ZipController"}
+{"service":"api-service","level":"debug","message":"/GET cep?=12927212 - ZipController"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"NestApplication","level":"info","message":"Nest application successfully started"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"NestApplication","level":"info","message":"Nest application successfully started"}
+{"service":"api-service","stack":["ZipValidatorPipe"],"level":"error","message":"Zip MiddleWare validation - Please enter a valid zip code - zip: 129272122 "}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"NestApplication","level":"info","message":"Nest application successfully started"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"NestApplication","level":"info","message":"Nest application successfully started"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"NestApplication","level":"info","message":"Nest application successfully started"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep/logs, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep/logs, GET} route"}
+{"service":"api-service","context":"NestApplication","level":"info","message":"Nest application successfully started"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"NestApplication","level":"info","message":"Nest application successfully started"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"NestApplication","level":"info","message":"Nest application successfully started"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"NestApplication","level":"info","message":"Nest application successfully started"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"NestApplication","level":"info","message":"Nest application successfully started"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"NestApplication","level":"info","message":"Nest application successfully started"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"NestApplication","level":"info","message":"Nest application successfully started"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"NestApplication","level":"info","message":"Nest application successfully started"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"NestApplication","level":"info","message":"Nest application successfully started"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"NestApplication","level":"info","message":"Nest application successfully started"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"NestApplication","level":"info","message":"Nest application successfully started"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"HealthController {/health}:"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"NestApplication","level":"info","message":"Nest application successfully started"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"HealthController {/health}:"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"NestApplication","level":"info","message":"Nest application successfully started"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"HealthController {/health}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/health, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"NestApplication","level":"info","message":"Nest application successfully started"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"HealthController {/health}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/health, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"NestApplication","level":"info","message":"Nest application successfully started"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"HealthController {/health}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/health, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"NestApplication","level":"info","message":"Nest application successfully started"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"HealthController {/health}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/health, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"NestApplication","level":"info","message":"Nest application successfully started"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"HealthController {/health}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/health, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"NestApplication","level":"info","message":"Nest application successfully started"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"HealthController {/health}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/health, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"NestApplication","level":"info","message":"Nest application successfully started"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"HealthController {/health}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/health/check, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"NestApplication","level":"info","message":"Nest application successfully started"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"HealthController {/health}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/health/check, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"NestApplication","level":"info","message":"Nest application successfully started"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"HealthController {/health}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/health/check, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"NestApplication","level":"info","message":"Nest application successfully started"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"HealthController {/health}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/health/check, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"NestApplication","level":"info","message":"Nest application successfully started"}
+{"service":"api-service","context":"HealthCheckService","stack":[""],"level":"error","message":"Health Check has failed! {\"Cep API\":{\"status\":\"down\",\"message\":\"Request failed with status code 401\",\"statusCode\":401,\"statusText\":\"Unauthorized\"}}"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"HealthController {/health}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/health/check, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"NestApplication","level":"info","message":"Nest application successfully started"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"HealthController {/health}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/health/check, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"NestApplication","level":"info","message":"Nest application successfully started"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"HealthController {/health}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/health/check, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"NestApplication","level":"info","message":"Nest application successfully started"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"HealthController {/health}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/health/check, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"NestApplication","level":"info","message":"Nest application successfully started"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep/api/v1/cep/check, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"HealthController {/health}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/health/check, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep/api/v1/cep/check, GET} route"}
+{"service":"api-service","context":"NestApplication","level":"info","message":"Nest application successfully started"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep/api/v1/cep/check, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"HealthController {/health}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/health/check, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep/api/v1/cep/check, GET} route"}
+{"service":"api-service","context":"NestApplication","level":"info","message":"Nest application successfully started"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep/api/v1/cep/check, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"HealthController {/health}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/health/check, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep/api/v1/cep/check, GET} route"}
+{"service":"api-service","context":"NestApplication","level":"info","message":"Nest application successfully started"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep/api/v1/cep/check, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"HealthController {/health}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/health/check, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep/api/v1/cep/check, GET} route"}
+{"service":"api-service","context":"NestApplication","level":"info","message":"Nest application successfully started"}
+{"service":"api-service","context":"HealthCheckService","stack":[""],"level":"error","message":"Health Check has failed! {\"Cep API\":{\"status\":\"down\",\"message\":\"connect ECONNREFUSED 127.0.0.1:80\"}}"}
+{"service":"api-service","context":"HealthCheckService","stack":[""],"level":"error","message":"Health Check has failed! {\"Cep API\":{\"status\":\"down\",\"message\":\"connect ECONNREFUSED 127.0.0.1:80\"}}"}
+{"service":"api-service","context":"HealthCheckService","stack":[""],"level":"error","message":"Health Check has failed! {\"Cep API\":{\"status\":\"down\",\"message\":\"connect ECONNREFUSED 127.0.0.1:80\"}}"}
+{"service":"api-service","context":"HealthCheckService","stack":[""],"level":"error","message":"Health Check has failed! {\"Cep API\":{\"status\":\"down\",\"message\":\"connect ECONNREFUSED 127.0.0.1:80\"}}"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep/api/v1/cep/check, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"HealthController {/health}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/health/check, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep/api/v1/cep/check, GET} route"}
+{"service":"api-service","context":"NestApplication","level":"info","message":"Nest application successfully started"}
+{"service":"api-service","context":"HealthCheckService","stack":[""],"level":"error","message":"Health Check has failed! {\"Cep API\":{\"status\":\"down\",\"message\":\"connect ECONNREFUSED 127.0.0.1:80\"}}"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep/api/v1/cep/check, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"HealthController {/health}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/health/check, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep/api/v1/cep/check, GET} route"}
+{"service":"api-service","context":"NestApplication","level":"info","message":"Nest application successfully started"}
+{"service":"api-service","context":"HealthCheckService","stack":[""],"level":"error","message":"Health Check has failed! {\"Cep API\":{\"status\":\"down\",\"message\":\"Request failed with status code 404\",\"statusCode\":404,\"statusText\":\"Not Found\"}}"}
+{"service":"api-service","context":"HealthCheckService","stack":[""],"level":"error","message":"Health Check has failed! {\"Cep API\":{\"status\":\"down\",\"message\":\"Request failed with status code 404\",\"statusCode\":404,\"statusText\":\"Not Found\"}}"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep/api/v1/cep/check, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"HealthController {/health}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/health/check, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep/api/v1/cep/check, GET} route"}
+{"service":"api-service","context":"NestApplication","level":"info","message":"Nest application successfully started"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep/api/v1/cep/check, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"HealthController {/health}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/health/check/cep, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep/api/v1/cep/check, GET} route"}
+{"service":"api-service","context":"NestApplication","level":"info","message":"Nest application successfully started"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep/api/v1/cep/check, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"HealthController {/health}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/health/check/cep, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep/api/v1/cep/check, GET} route"}
+{"service":"api-service","context":"NestApplication","level":"info","message":"Nest application successfully started"}
+{"service":"api-service","context":"HealthCheckService","stack":[""],"level":"error","message":"Health Check has failed! {\"Cep API\":{\"status\":\"down\",\"message\":\"Request failed with status code 404\",\"statusCode\":404,\"statusText\":\"Not Found\"}}"}
+{"service":"api-service","context":"HealthCheckService","stack":[""],"level":"error","message":"Health Check has failed! {\"Cep API\":{\"status\":\"down\",\"message\":\"Request failed with status code 404\",\"statusCode\":404,\"statusText\":\"Not Found\"}}"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep/cep/check, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"HealthController {/health}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/health/check/cep, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep/cep/check, GET} route"}
+{"service":"api-service","context":"NestApplication","level":"info","message":"Nest application successfully started"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep/check, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"HealthController {/health}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/health/check/cep, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1/pvt/cep}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep/check, GET} route"}
+{"service":"api-service","context":"NestApplication","level":"info","message":"Nest application successfully started"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/check, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"HealthController {/health}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/health/check/cep, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/check, GET} route"}
+{"service":"api-service","context":"NestApplication","level":"info","message":"Nest application successfully started"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/cep/check, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"HealthController {/health}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/health/check/cep, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/cep/check, GET} route"}
+{"service":"api-service","context":"NestApplication","level":"info","message":"Nest application successfully started"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/cep/check, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"HealthController {/health}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/health/check/cep, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/cep/check, GET} route"}
+{"service":"api-service","context":"NestApplication","level":"info","message":"Nest application successfully started"}
+{"service":"api-service","context":"ZipValidatorPipe","level":"debug","message":"/GET cep?=12927012 - ZipValidatorPipe - valid zip"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/cep/check, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"HealthController {/health}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/health/check/cep, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/cep/check, GET} route"}
+{"service":"api-service","context":"NestApplication","level":"info","message":"Nest application successfully started"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/cep/check, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"HealthController {/health}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/health/check/cep, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/cep/check, GET} route"}
+{"service":"api-service","context":"NestApplication","level":"info","message":"Nest application successfully started"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/cep/check, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"HealthController {/health}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/health/check/cep, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/cep/check, GET} route"}
+{"service":"api-service","context":"NestApplication","level":"info","message":"Nest application successfully started"}
