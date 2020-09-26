@@ -1,20 +1,33 @@
 # CEP API
 
--   CEP REST API - [Primeiros passos](#primeiros-passos) - [Descrição](#descrição) - [Via CEP Micro-serviços](https://viacep.com.br/) - [Estratégia](#estratégia) - [Arquitetura](#arquitetura) - [NestJs Framework](#nestjs) - [Autenticação](#autenticação) - [ Endpoint](#endpoint) - [CEP](#cep) - [Health check](#health) - [ Dependencias e Livrarias externas](#Dependências) - [Heroku Deploy](#deploy) - [Swager documetação da API](#swagger) - [Testes](#testes)
+-   [Primeiros passos](#primeiros-passos)
+-   [Descrição](#descrição)
+-   [Via CEP Micro-serviços](https://viacep.com.br/)
+-   [Estratégia](#estratégia)
+-   [Arquitetura](#arquitetura)
+-   [NestJs Framework](#nestjs)
+-   [Autenticação](#autenticação)
+-   [ Endpoint](#endpoint)
+-   [CEP](#cep)
+-   [Health check](#health)
+-   [ Dependencias e Livrarias externas](#Dependências)
+-   [Heroku Deploy](#deploy)
+-   [Swager documetação da API](#swagger)
+-   [Testes](#testes)
 
 ## Primeiros passos
 
 -   Certifique-se que o node e o NPM / Yarn esteja instalado na sua maquina com o comando:
 
-        		`node --version && npm --version`
+`node --version && npm --version`
 
 -   Instale as dependencias necessárias com o comando:
 
-        		`yarn` ou `npm install`
+`yarn` ou `npm install`
 
 Rode a aplicação em modo desenvolvedor com o comando:
 
-    `yarn start:dev`
+`yarn start:dev`
 
 Acessando a aplicação em http://localhost:3000/api/
 
@@ -54,8 +67,8 @@ A arquitetura do projeto está baseada no framework [Nestjs](#nestjs)
 
 -   Básicamente temos uma API Rest que irá servir os serviços de consulta de endereços. Primeira parte da requisição irá acionar um `Middleware`, seria a porta de entrada da requisição, mas antes disso a requisição é enviada para o `controller`;
 
-        	-	`ZipMiddleware`: que fara a validação do CEP (verificar se está dentro dos padrões), e em seguida enviada para o próximo middleware com pela função `next()`
-        	-	`AuthMiddleware`: Temos aqui a validação da apikey para verificar se ela existe e se está valida
+-   ZipMiddleware: que fara a validação do CEP (verificar se está dentro dos padrões), e em seguida enviada para o próximo middleware com pela função `next()`
+-   AuthMiddleware: Temos aqui a validação da apikey para verificar se ela existe e se está valida
 
 #### Controllers:
 
