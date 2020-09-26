@@ -11,42 +11,50 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Added
 
-- API authentication method
-- Middleware authenticatino
-- Add ApiKeyStrategy
+-   Middleware Loggers
+-   Winston Logger
+-   Logger provider
+-   Loggers on controllers
 
+### [0.0.8] 2020-09-24
+
+### Added
+
+-   API authentication method
+-   Middleware authentication
+-   Add ApiKeyStrategy
 
 ### [0.0.7] 2020-09-24
 
 ### Added
 
-- API cache controll
+-   API cache controll
 
 ### [0.0.6] 2020-09-24
 
 ### Fixed
 
-- API business rule
-- Separation of responsibilities for each method
+-   API business rule
+-   Separation of responsibilities for each method
 
 ### [0.0.5] 2020-09-22
 
 ### Fixed
 
-- Validation zip code
-- Test invalid request to get zip code
+-   Validation zip code
+-   Test invalid request to get zip code
 
 ### [0.0.4] 2020-09-22
 
 ### Added
 
-- Adding automated tests
+-   Adding automated tests
 
 ### Added
 
-- Adding route settings using decorators
-- HTTPmodule settings and addition
-- Zip service settings
+-   Adding route settings using decorators
+-   HTTPmodule settings and addition
+-   Zip service settings
 
 ### [0.0.2] 2020-09-22
 
@@ -54,6 +62,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 initial configuration of controller, modules and zip service
 
-- Service generation for zip code
-- Generation of zip code module
-- Generation of zip controller
+-   Service generation for zip code
+-   Generation of zip code module
+-   Generation of zip controller
