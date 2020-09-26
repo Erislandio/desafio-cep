@@ -437,3 +437,22 @@
 {"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
 {"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/cep/check, GET} route"}
 {"service":"api-service","context":"NestApplication","level":"info","message":"Nest application successfully started"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/cep/check, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"HealthController {/health}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/health/check/cep, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/cep/check, GET} route"}
+{"service":"api-service","context":"NestApplication","level":"info","message":"Nest application successfully started"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/cep/check, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"HealthController {/health}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/health/check/cep, GET} route"}
+{"service":"api-service","context":"RoutesResolver","level":"info","message":"ZipController {/api/v1}:"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/pvt/cep, GET} route"}
+{"service":"api-service","context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/cep/check, GET} route"}
+{"service":"api-service","context":"NestApplication","level":"info","message":"Nest application successfully started"}
+{"service":"api-service","stack":["ZipValidatorPipe"],"level":"error","message":"Zip MiddleWare validation - Please enter a valid zip code - zip: 12927-012 "}

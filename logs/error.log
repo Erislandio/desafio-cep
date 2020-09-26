@@ -9,3 +9,4 @@
 {"service":"api-service","context":"HealthCheckService","stack":[""],"level":"error","message":"Health Check has failed! {\"Cep API\":{\"status\":\"down\",\"message\":\"Request failed with status code 404\",\"statusCode\":404,\"statusText\":\"Not Found\"}}"}
 {"service":"api-service","context":"HealthCheckService","stack":[""],"level":"error","message":"Health Check has failed! {\"Cep API\":{\"status\":\"down\",\"message\":\"Request failed with status code 404\",\"statusCode\":404,\"statusText\":\"Not Found\"}}"}
 {"service":"api-service","context":"HealthCheckService","stack":[""],"level":"error","message":"Health Check has failed! {\"Cep API\":{\"status\":\"down\",\"message\":\"Request failed with status code 404\",\"statusCode\":404,\"statusText\":\"Not Found\"}}"}
+{"service":"api-service","stack":["ZipValidatorPipe"],"level":"error","message":"Zip MiddleWare validation - Please enter a valid zip code - zip: 12927-012 "}
