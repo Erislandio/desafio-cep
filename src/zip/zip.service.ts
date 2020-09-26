@@ -2,14 +2,20 @@ import {
     HttpException,
     HttpService,
     HttpStatus,
+    Inject,
     Injectable,
+    Logger,
 } from '@nestjs/common';
+import { WINSTON_MODULE_PROVIDER } from 'nest-winston';
 import { Zip } from './interfaces/zip.class';
 import { IZip } from './interfaces/zip.interfaces';
 
 @Injectable()
 export class ZipService implements Zip {
-    constructor(private readonly httpService: HttpService) {}
+    constructor(
+        private readonly httpService: HttpService,
+        @Inject(WINSTON_MODULE_PROVIDER) private readonly logger: Logger,
+    ) {}
 
     private replaceCharIndex = (
         code: string,
@@ -50,23 +56,41 @@ export class ZipService implements Zip {
 
             return req;
         } catch (error) {
-            throw new HttpException(
-                {
-                    status: HttpStatus.INTERNAL_SERVER_ERROR,
-                    error: 'There was an internal server problem at the time',
-                    description: error,
-                },
-                HttpStatus.INTERNAL_SERVER_ERROR,
+            this.logger.error(
+                `Internal server error: ${error} - Status: 500 - method: getAddressByZipCode`,
+                ZipService.name,
             );
+
+            this.statusError(error);
         }
     }
 
+    private statusError(error: any): void {
+        throw new HttpException(
+            {
+                status: HttpStatus.INTERNAL_SERVER_ERROR,
+                error: 'There was an internal server problem at the time',
+                description: error,
+            },
+            HttpStatus.INTERNAL_SERVER_ERROR,
+        );
+    }
+
     private async sendZipCode(code: string): Promise<IZip> {
-        const response = await this.httpService.get<IZip>(this.route(code));
+        try {
+            const response = await this.httpService.get<IZip>(this.route(code));
 
-        const { data } = await response.toPromise();
+            const { data } = await response.toPromise();
 
-        return data;
+            return data;
+        } catch (error) {
+            this.logger.error(
+                `Internal server error: ${error} - Status: 500 - method: sendZipCode`,
+                ZipService.name,
+            );
+
+            this.statusError(error);
+        }
     }
 
     private route = (zip: string): string => {
