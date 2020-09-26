@@ -65,7 +65,7 @@ A arquitetura do projeto está baseada no framework [Nestjs](#nestjs)
 
 ![MIddleware](https://docs.nestjs.com/assets/Middlewares_1.png)
 
--   Básicamente temos uma API Rest que irá servir os serviços de consulta de endereços. Primeira parte da requisição irá acionar um `Middleware`, seria a porta de entrada da requisição, mas antes disso a requisição é enviada para o `controller`;
+-   Básicamente temos uma API Rest que irá servir os serviços de consulta de endereços. Primeira parte da requisição irá acionar um `Middleware`, seria a porta de entrada da requisição.
 
 -   ZipMiddleware: que fara a validação do CEP (verificar se está dentro dos padrões), e em seguida enviada para o próximo middleware com pela função `next()`
 -   AuthMiddleware: Temos aqui a validação da apikey para verificar se ela existe e se está valida
@@ -98,7 +98,7 @@ Mais informações sobre o Nestjs nesse [link](https://nestjs.com/)
 
 ## Autenticação
 
--   Na autenticação utizamos apenas alguns dados 'mockados' para fazer a validação do header da requisição para consulta de CEP, nesse caso a chave da nossa API É:
+-   Na parte de autenticação da API, a chave deve ser estar validada e correta, segue uma chave valida abaixo:
 
 | Api Key | eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJPbmxpbmUgSldUIEJ1aWxkZXIiLCJpYXQiOjE2MDEwMDE5NzgsImV4cCI6MTYzMjUzNzk3OCwiYXVkIjoid3d3LmV4YW1wbGUuY29tIiwic3ViIjoianJvY2tldEBleGFtcGxlLmNvbSIsIkdpdmVuTmFtZSI6IkpvaG5ueSIsIlN1cm5hbWUiOiJSb2NrZXQiLCJFbWFpbCI6Impyb2NrZXRAZXhhbXBsZS5jb20iLCJSb2xlIjpbIk1hbmFnZXIiLCJQcm9qZWN0IEFkbWluaXN0cmF0b3IiXX0.QTXBYNVpEth0Vn3kkICu2JBBnJ6_XtrawrPPxJ2Oxz8 |
 | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
